@@ -16,8 +16,8 @@ script:
 # 发布到gh-pages
 deploy:
   provider: pages
-  email: 826526881@qq.com
-  name: kitorv
+  email: 779074787@qq.com
+  name: cathy1003
   local_dir: dist
   skip_cleanup: true
   github_token: $GITHUB_TOKEN
