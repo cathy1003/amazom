@@ -14,13 +14,10 @@ script:
   - npm run build
 
 # 发布到gh-pages
-deploy:
-  provider: pages
-  email: 779074787@qq.com
-  name: cathy1003
-  local_dir: dist
-  skip_cleanup: true
-  github_token: $GITHUB_TOKEN
-  keep_history: true
-  on:
-    branch: master
+- provider: pages
+    local_dir: dist
+    skip_cleanup: true
+    github_token: $GITHUB_TOKEN
+    keep_history: true
+    on:
+      branch: master
